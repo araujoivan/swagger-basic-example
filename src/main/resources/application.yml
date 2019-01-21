@@ -1,0 +1,8 @@
+server:
+    port: 8084
+    
+kafka:
+    bootstrap-server: ${KAFKA_SERVER:127.0.0.1:9092}
+    topic-delay: 1000
+    topic-prefix: dev_
+    
